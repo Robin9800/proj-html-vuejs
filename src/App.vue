@@ -25,6 +25,6 @@ export default {
 #app{
   margin: 0px 200px;
   border: 1px solid black;
-  height: 100vh;
+  height: auto;
 }
 </style>

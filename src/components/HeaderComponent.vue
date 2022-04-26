@@ -44,7 +44,7 @@ export default {
     height: 40px;
     margin: 0px 100px;
 }
-ul li{
+header ul li{
     margin: 30px 10px;
     font-weight: bold;
     list-style-type: none;
@@ -73,6 +73,7 @@ header button:hover{
 .header-jumbotron{
     height: 54vh;
     background-color: hsl(217deg 100% 97%);
+    border-radius: 10px;
 }
 .header-jumbotron img{
     height: 480px;
