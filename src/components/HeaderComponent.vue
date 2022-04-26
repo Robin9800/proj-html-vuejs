@@ -16,7 +16,7 @@
         </div>
        
         <!--HEADER JUMBOTRON-->
-        <div class="header-jumbotron flex border">
+        <div class="header-jumbotron flex">
             <div class="title-readMore column">
                 <h1>The biggest platform for your growth.</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing eoptio doloremque quis voluptatem ipsa eius ipsum </p>
