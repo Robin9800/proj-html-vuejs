@@ -22,5 +22,9 @@ export default {
 </script>
 
 <style>
-
+#app{
+  margin: 0px 200px;
+  border: 1px solid black;
+  height: 100vh;
+}
 </style>
