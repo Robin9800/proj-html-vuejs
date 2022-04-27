@@ -1,7 +1,7 @@
 <template>
     
   <div class="features flex column">
-      <img src="img/14.jpeg" alt="">
+      <img src="img/14.png" alt="">
       <div class="explore flex">
           <div class="h1-p flex column">
               <h1>Populare features that ypur business needs</h1>
@@ -11,7 +11,10 @@
       </div>
       <!--FEATURES CARDS-->
       <ul class="cards flex">
-          <li class="card" v-for="(page,index) in cards" :key="index"><h4 class="f-14">{{page.name}}</h4></li>
+          <li class="card" v-for="(page,index) in cards" :key="index">
+              <h4 class="f-14">{{page.name}}</h4>
+              <img :src="page.url" alt="">
+            </li>
       </ul>
         
   </div>

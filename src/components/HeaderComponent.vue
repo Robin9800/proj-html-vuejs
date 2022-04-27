@@ -19,7 +19,7 @@
                 <button>Read More</button>
             </div>
             <div class="jumbotron">
-                <img src="img/508.jpeg" alt="">
+                <img src="img/27-1.png" alt="">
             </div>
         </div>
     </header>
@@ -66,15 +66,14 @@ ul li a:hover{
     border-radius: 10px;
 }
 .header-jumbotron img{
-    height: 480px;
-    opacity: 0.6;
-    filter: alpha(opacity=60)
+    height: 400px;
+    margin-top: 20px;
 }
 .title-readMore{
     padding: 40px;
 }
 .header-jumbotron h1{
-    font-size: 40px;
+    font-size: 38px;
     line-height: 70px;
 }
 .title-readMore p{

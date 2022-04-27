@@ -1,6 +1,6 @@
 <template>
   <div class="testimonial flex column">
-      <img class="testimonial-bar" src="img/15.jpeg" alt="">
+      <img class="testimonial-bar" src="img/15.png" alt="">
       <div class="testimonial-title-p text-center flex column">
           <h2>Our Testimonials</h2>
             <p class="f-12">Lorem ipsum, dolor sit amet consecteturusationus nihil iste fugiat hic odit, tempore, minus laborum porro sed!</p>
