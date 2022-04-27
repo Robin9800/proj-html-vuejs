@@ -49,7 +49,7 @@ export default {
 
 <style>
 main{
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .online-marketing-section{
     margin: auto 50px;

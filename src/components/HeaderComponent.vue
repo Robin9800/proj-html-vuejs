@@ -4,11 +4,7 @@
         <div class="main-header flex">
              <img class="flex" src="img/logo-2.png" alt="logo-2">
         <ul class="flex">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Feature</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Contact US</a></li>
+            <li v-for="(page,index) in navigation" :key="index"><a href="#">{{page.name}}</a></li>
             <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
             <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
             <button>Get Started</button>
@@ -30,8 +26,13 @@
 </template>
 
 <script>
-export default {
+import navigation from '@/assets/navigation'
 
+export default {
+    name: 'HeaderComponent',
+    data(){
+        return {navigation}
+    }
 }
 </script>
 
