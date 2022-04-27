@@ -26,6 +26,7 @@ export default {
   margin: 0px 220px;
   border: 1px solid black;
   height: auto;
+  z-index: 1;
 }
 button{
     margin: 20px;

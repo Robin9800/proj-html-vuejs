@@ -1,15 +1,17 @@
 <template>
+    
   <div class="features flex column">
+      <img src="img/14.jpeg" alt="">
       <div class="explore flex">
           <div class="h1-p flex column">
               <h1>Populare features that ypur business needs</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing eoptio doloremque quis voluptatem ipsa eius ipsum </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing eoptio doloremque quis voluptatem  <br> ipsa eius ipsum </p>
           </div>
             <button>Explore more features</button>
       </div>
       <!--FEATURES CARDS-->
       <ul class=" cards flex">
-          <li  v-for="(page,index) in cards" :key="index"><h4>{{page.name}}</h4></li>
+          <li class="card" v-for="(page,index) in cards" :key="index"><h4>{{page.name}}</h4></li>
       </ul>
         
   </div>
@@ -29,6 +31,11 @@ export default {
 .features{
     margin: 120px 50px
 }
+.features img{
+    height: 400px;
+    background-color: hsl(212deg 100% 97%);
+    border-radius: 500px;
+}
 .features ul{
     flex-wrap: wrap;
 }
@@ -47,7 +54,12 @@ export default {
 }
 
 .explore{
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.card{
+    width: 200px;
+    height: 120px;
+    margin: 20px;
 }
 .cards{
     margin-top: 40px;
@@ -64,6 +76,7 @@ export default {
     font-size: 14px;
 }
 .explore button{
+    margin: 30px;
     padding: 10px;
 }
 </style>

@@ -3,7 +3,7 @@
       <OnlineMarketingSection/>
       <TricksComponent/>
       <FeaturesComponent/>
-      <img src="img/15.png" alt="">
+      <TestimonialComponent/>
       
   </main>
 </template>
@@ -12,13 +12,16 @@
 import OnlineMarketingSection from './OnlineMarketingSection.vue'
 import TricksComponent from './TricksComponent.vue'
 import FeaturesComponent from './FeaturesComponent.vue'
+import TestimonialComponent from './TestimonialComponent.vue'
+
 export default {
     name: 'MainComponent',
     
     components: {
         OnlineMarketingSection,
         TricksComponent,
-        FeaturesComponent
+        FeaturesComponent,
+        TestimonialComponent
     }
 }
 </script>
@@ -26,8 +29,5 @@ export default {
 <style>
 main{
     margin-top: 120px;
-}
-main img{
-    color: black;
 }
 </style>
