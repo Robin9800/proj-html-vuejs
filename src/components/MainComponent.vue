@@ -4,7 +4,7 @@
       <TricksComponent/>
       <FeaturesComponent/>
       <TestimonialComponent/>
-      
+      <LatestComponent/>
   </main>
 </template>
 
@@ -13,6 +13,7 @@ import OnlineMarketingSection from './OnlineMarketingSection.vue'
 import TricksComponent from './TricksComponent.vue'
 import FeaturesComponent from './FeaturesComponent.vue'
 import TestimonialComponent from './TestimonialComponent.vue'
+import LatestComponent from './LatestComponent.vue'
 
 export default {
     name: 'MainComponent',
@@ -21,7 +22,8 @@ export default {
         OnlineMarketingSection,
         TricksComponent,
         FeaturesComponent,
-        TestimonialComponent
+        TestimonialComponent,
+        LatestComponent
     }
 }
 </script>

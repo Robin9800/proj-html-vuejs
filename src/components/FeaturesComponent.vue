@@ -5,13 +5,13 @@
       <div class="explore flex">
           <div class="h1-p flex column">
               <h1>Populare features that ypur business needs</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing eoptio doloremque quis voluptatem  <br> ipsa eius ipsum </p>
+            <p class="f-14">Lorem ipsum dolor sit amet consectetur adipisicing eoptio doloremque quis voluptatem  <br> ipsa eius ipsum </p>
           </div>
             <button>Explore more features</button>
       </div>
       <!--FEATURES CARDS-->
-      <ul class=" cards flex">
-          <li class="card" v-for="(page,index) in cards" :key="index"><h4>{{page.name}}</h4></li>
+      <ul class="cards flex">
+          <li class="card" v-for="(page,index) in cards" :key="index"><h4 class="f-14">{{page.name}}</h4></li>
       </ul>
         
   </div>
@@ -65,15 +65,9 @@ export default {
     margin-top: 40px;
     justify-content: center;
 }
-.cards h4{
-    font-size: 14px;
-}
 .explore h1{
     margin-bottom: 20px;
     font-size: 26px;
-}
-.explore p{
-    font-size: 14px;
 }
 .explore button{
     margin: 30px;

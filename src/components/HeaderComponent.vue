@@ -4,9 +4,9 @@
         <div class="main-header flex">
              <img class="flex" src="img/logo-2.png" alt="logo-2">
         <ul class="flex">
-            <li v-for="(page,index) in navigation" :key="index"><a href="#">{{page.name}}</a></li>
-            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li class="f-12" v-for="(page,index) in navigation" :key="index"><a href="#">{{page.name}}</a></li>
+            <li class="f-12"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li class="f-12"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
             <button>Get Started</button>
         </ul>
         </div>
@@ -15,7 +15,7 @@
         <div class="header-jumbotron flex">
             <div class="title-readMore column">
                 <h1>The biggest platform for your growth.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing eoptio doloremque quis voluptatem ipsa eius ipsum </p>
+                <p class="f-14">Lorem ipsum dolor sit amet consectetur adipisicing eoptio doloremque quis voluptatem ipsa eius ipsum </p>
                 <button>Read More</button>
             </div>
             <div class="jumbotron">
@@ -49,7 +49,6 @@ header ul li{
     margin: 30px 10px;
     font-weight: bold;
     list-style-type: none;
-    font-size: 12px;
 }
 ul li a{
     text-decoration: none;
@@ -80,7 +79,6 @@ ul li a:hover{
 }
 .title-readMore p{
     line-height: 30px;
-    font-size: 14px;
 }
 .title-readMore button{
     margin-left: 0px;
