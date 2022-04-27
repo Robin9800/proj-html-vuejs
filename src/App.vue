@@ -23,8 +23,22 @@ export default {
 
 <style>
 #app{
-  margin: 0px 200px;
+  margin: 0px 220px;
   border: 1px solid black;
   height: auto;
+}
+button{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    background-color: hsl(219deg 100% 61%);
+    border: none;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: black;
+}
+li{
+  list-style: none;
 }
 </style>

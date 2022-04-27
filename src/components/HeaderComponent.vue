@@ -60,17 +60,7 @@ ul li a:hover{
     color: hsl(209deg 98% 49%);
     border-bottom: 2px solid hsl(209deg 98% 49%);
 }
-header button{
-    margin: 20px;
-    padding: 10px;
-    color: white;
-    background-color: hsl(219deg 100% 61%);
-    border: none;
-    border-radius: 4px;
-}
-header button:hover{
-    background-color: black;
-}
+
 .header-jumbotron{
     height: 54vh;
     background-color: hsl(217deg 100% 97%);
