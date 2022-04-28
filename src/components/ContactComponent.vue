@@ -159,7 +159,7 @@ export default {
 }
 .send{
     width: 125px;
-    margin: 0px;
+    margin: 10px 0px;
     padding: 12px;
 }
 
