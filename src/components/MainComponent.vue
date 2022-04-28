@@ -33,7 +33,7 @@ export default {
 
 <style>
 main{
-    margin: 160px;
+    margin: 160px 160px 30px 160px;
     z-index: 1;
 }
 </style>

@@ -57,7 +57,9 @@ export default {
     background-color: #6CDAC1;
     color: white;
 }
-
+.h1-p{
+    margin: auto 54px;
+}
 .explore{
     justify-content: space-around;
 }
