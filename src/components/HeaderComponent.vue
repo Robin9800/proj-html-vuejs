@@ -37,6 +37,9 @@ export default {
 </script>
 
 <style>
+header{
+    margin: 0px 160px;
+}
 .main-header{
     justify-content: space-around;
 }

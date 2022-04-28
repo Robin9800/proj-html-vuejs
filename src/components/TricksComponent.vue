@@ -36,7 +36,7 @@ export default {
 
 <style>
 .tricks-jumbotron{
-    margin-top: 50px;
+    margin: 50px 40px 20px 40px;
 }
 .tricks-jumbotron h1{
     margin-bottom: 20px;

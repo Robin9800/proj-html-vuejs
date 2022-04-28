@@ -1,5 +1,5 @@
 <template>
-  <main class="flex column border">
+  <main class="flex column">
       <OnlineMarketingSection/>
       <TricksComponent/>
       <FeaturesComponent/>
@@ -26,15 +26,14 @@ export default {
         FeaturesComponent,
         TestimonialComponent,
         LatestComponent,
-        ContactComponent
+        ContactComponent,
     }
 }
 </script>
 
 <style>
 main{
-    margin: 120px 40px 0px 40px;
+    margin: 160px;
     z-index: 1;
-
 }
 </style>

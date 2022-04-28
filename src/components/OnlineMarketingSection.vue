@@ -45,7 +45,7 @@ export default {
 }
 .online-marketing-section img{
     height: 60px;
-    margin-right: 20px;
+    margin: 20px;
 }
 .marketing-card p{
     line-height: 28px;

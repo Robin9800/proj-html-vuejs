@@ -69,7 +69,7 @@ export default {
 
 <style>
 .contact-container{
-    margin: 120px 20px;
+    margin: 120px 20px 20px 20px;
 }
 .map-info-container{
     margin: 60px 50px;
