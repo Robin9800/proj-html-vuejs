@@ -117,6 +117,7 @@ export default {
 }
 .input{
     width: 280px;
+    margin-right: 100px;
 }
 .input img{
     height: 32px;
