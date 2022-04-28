@@ -33,6 +33,7 @@ export default {
     height: 300px;
     padding: 4px;
     border: 1px solid #00000014;
+    border-radius: 4px;
 }
 .card-info img{
     width: 100%;
@@ -47,5 +48,6 @@ export default {
     padding: 10px;
     margin: 6px;
     background-color: white;
+    border-radius: 4px;
 }
 </style>
