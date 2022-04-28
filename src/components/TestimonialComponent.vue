@@ -20,9 +20,6 @@ export default {
 </script>
 
 <style>
-.testimonial{
-    margin: 100px 0px;
-}
 .testimonial-bar{
     height: 300px;
     background: linear-gradient(#f2f7ff, white);

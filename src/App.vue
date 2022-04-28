@@ -23,7 +23,7 @@ export default {
 
 <style>
 #app{
-  margin: 0px 220px;
+  margin: 0px 160px;
   border: 1px solid black;
   height: auto;
 }

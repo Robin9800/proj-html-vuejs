@@ -17,6 +17,9 @@ export default {
 </script>
 
 <style>
+.latest-title-p{
+    margin-top: 120px;
+}
 .latest-title-p h2{
     margin-bottom: 15px;
 }

@@ -30,7 +30,8 @@ export default {
 
 <style>
 main{
-    margin-top: 120px;
+    margin: 120px 40px 0px 40px;
     z-index: 1;
+
 }
 </style>

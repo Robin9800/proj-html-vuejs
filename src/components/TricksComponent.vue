@@ -74,6 +74,6 @@ export default {
 .tricks-image img{
     height: 360px;
     margin-right: 100px;
-    margin-top: 100px
+    margin-top: 130px
 }
 </style>
