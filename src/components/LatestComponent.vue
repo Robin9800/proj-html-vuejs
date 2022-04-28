@@ -21,6 +21,6 @@ export default {
     margin-bottom: 15px;
 }
 .latest-title-p p{
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 </style>
