@@ -139,6 +139,11 @@ export default {
     padding: 8px;
     margin: 20px 4px;
     border: 1px solid #00000014;
+    border-radius: 4px;
+}
+.social i:hover{
+    background-color:  hsl(219deg 100% 61%);
+    color: white;
 }
 .input input{
     font-size: 12px;
