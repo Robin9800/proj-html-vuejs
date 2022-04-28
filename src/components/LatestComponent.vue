@@ -1,7 +1,7 @@
 <template>
   <div class="latest-title-p flex column">
           <h2 class="text-center">Latest Post</h2>
-          <p class="f-12 text-center">If you are planning on developing a product landing.</p>
+          <p class="f-12 as-center">If you are planning on developing a product landing.</p>
           <LatestCard/>
     </div>
 </template>
