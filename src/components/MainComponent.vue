@@ -31,5 +31,6 @@ export default {
 <style>
 main{
     margin-top: 120px;
+    z-index: 1;
 }
 </style>

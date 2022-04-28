@@ -26,6 +26,7 @@ export default {
 .testimonial-bar{
     height: 300px;
     background: linear-gradient(#f2f7ff, white);
+    z-index: -1;
 }
 .testimonial-title-p{
     width: 550px;

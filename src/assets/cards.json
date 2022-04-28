@@ -5,24 +5,31 @@
         
     },
     {
-        "name": "Stock Management"
+        "name": "Stock Management",
+        "url" : "img/510.png"
     },
     {
-        "name": "Receivable & Payaments"
+        "name": "Receivable & Payaments",
+        "url" : "img/511.png"
     },
     {
-        "name": "Manage Buying"
+        "name": "Manage Buying",
+        "url" : "img/510.png"
     },
     {
-        "name": "Powerful & Secure"
+        "name": "Powerful & Secure",
+        "url" : "img/511.png"
     },
     {
-        "name": "Fastest Return Filing"
+        "name": "Fastest Return Filing",
+        "url" : "img/510.png"
     },
     {
-        "name": "Monthly Detailed"
+        "name": "Monthly Detailed",
+        "url" : "img/511.png"
     },
     {
-        "name": "Product management"
+        "name": "Product management",
+        "url" : "img/510.png"
     }
 ]
