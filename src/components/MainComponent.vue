@@ -5,6 +5,7 @@
       <FeaturesComponent/>
       <TestimonialComponent/>
       <LatestComponent/>
+      <ContactComponent/>
   </main>
 </template>
 
@@ -14,6 +15,7 @@ import TricksComponent from './TricksComponent.vue'
 import FeaturesComponent from './FeaturesComponent.vue'
 import TestimonialComponent from './TestimonialComponent.vue'
 import LatestComponent from './LatestComponent.vue'
+import ContactComponent from './ContactComponent.vue'
 
 export default {
     name: 'MainComponent',
@@ -23,7 +25,8 @@ export default {
         TricksComponent,
         FeaturesComponent,
         TestimonialComponent,
-        LatestComponent
+        LatestComponent,
+        ContactComponent
     }
 }
 </script>
