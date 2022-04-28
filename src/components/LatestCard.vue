@@ -25,7 +25,8 @@ export default {
 <style>
 .latest-card{
     justify-content: space-around;
-    margin: 18px;
+    margin: auto 50px;
+    
 }
 .card-info{
     width: 280px;
